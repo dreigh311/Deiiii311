@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+.main-section {
+  background-color: #d9e6ec;
+  padding: 50px 0;
+}
+
+
+.title {
+  color: purple;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.card-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  transition: 0.3s;
+}
+
+
+.card-box:hover {
+  transform: translateY(-5px);
+}
+
+.card-box h2 {
+  color: purple;
+  margin-bottom: 10px;
+}
+
+
+.card-box p {
+  font-size: 14px;
+  color: #444;
+}
+
+
+.card-box .btn {
+  margin-top: 15px;
+  border-radius: 20px;
+}
